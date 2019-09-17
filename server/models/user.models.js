@@ -66,7 +66,4 @@ async function createNewUser(res, user) {
     }
 }
 // Exports //
-const _getUser = getUser;
-const _createNewUser = createNewUser;
-export { _getUser as getUser };
-export { _createNewUser as createNewUser };
+export { createNewUser, getUser }

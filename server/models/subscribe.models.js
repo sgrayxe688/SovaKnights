@@ -25,7 +25,7 @@ function deleteSubscription(res, subscribe){
             res.send(err)
         }
         if (!results[0]){
-            res.send('You are Not Subscribed')
+            res.send('You Were Not Subscribed')
         }
         else{
             pool.query(`DELETE FROM income WHERE userid = ?`, subscribeToSave.userid, (err, results, field) => {
