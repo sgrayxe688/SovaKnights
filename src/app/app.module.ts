@@ -9,9 +9,8 @@ import { ContactComponent } from './contact/contact.component';
 import { NewsComponent } from './news/news.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { StoreComponent } from './store/store.component';
-import { MaterialModule } from '../material';
+import { MaterialModule } from './material';
 
- 
 @NgModule({
   declarations: [
     AppComponent,
