@@ -1,0 +1,15 @@
+div {
+    border: 1px solid black;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    height: 600px;
+    width: calc(100% - 40px);
+}
+.centeredText {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
